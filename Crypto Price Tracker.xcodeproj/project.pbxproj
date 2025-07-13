@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B1369BBA2E22A287001FEFA6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B1369BB92E22A287001FEFA6 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B1369B742E22959C001FEFA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,13 +31,14 @@
 		B1369B5D2E22959B001FEFA6 /* Crypto Price Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Price Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1369B732E22959C001FEFA6 /* Crypto Price TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crypto Price TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1369B7D2E22959C001FEFA6 /* Crypto Price TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crypto Price TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1369BB92E22A287001FEFA6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		B1369B852E22959D001FEFA6 /* Exceptions for "Crypto Price Tracker" folder in "Crypto Price Tracker" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Supporting/Info.plist,
 			);
 			target = B1369B5C2E22959B001FEFA6 /* Crypto Price Tracker */;
 		};
@@ -88,6 +93,7 @@
 		B1369B542E22959B001FEFA6 = {
 			isa = PBXGroup;
 			children = (
+				B1369BB92E22A287001FEFA6 /* README.md */,
 				B1369B5F2E22959B001FEFA6 /* Crypto Price Tracker */,
 				B1369B762E22959C001FEFA6 /* Crypto Price TrackerTests */,
 				B1369B802E22959C001FEFA6 /* Crypto Price TrackerUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1369BBA2E22A287001FEFA6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +298,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 89TVPT6RTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Crypto Price Tracker/Info.plist";
+				INFOPLIST_FILE = "Crypto Price Tracker/Supporting/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,12 +325,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 89TVPT6RTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Crypto Price Tracker/Info.plist";
+				INFOPLIST_FILE = "Crypto Price Tracker/Supporting/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,49 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Build
+build/
+DerivedData/
+*.o
+*.d
+*.linkfilelist
+*.hmap
+*.ipa
+
+# SwiftPM
+.swiftpm
+.build/
+
+# Logs and temporary
+*.log
+*.tmp
+*.swp
+
+# Dependency Managers
+Carthage/
+Carthage/Build/
+Pods/
+node_modules/
+
+# Asset Catalog
+*.xcassets/ (except Resources)
+!Crypto Price Tracker/Resources/Assets.xcassets/
+
+# Personal files
+*.DS_Store
+*.orig
+
+# Ignore system files
+*.env
+*.local
+*.xcuserstate
+
+# Ignore Info.plist in old location
+Crypto Price Tracker/Info.plist
+
+# Explicitly track README.md (redundant unless otherwise ignored above)
+!README.md
